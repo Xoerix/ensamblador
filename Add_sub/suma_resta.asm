@@ -2,7 +2,7 @@ section .data
 sumatoria db '0'
 
 section .bss
-resta resb 1           ; Reserva un byte en memoria
+    resta resb 1           ; Reserva un byte en memoria
 
 section .text
     global _start
